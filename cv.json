@@ -1,0 +1,155 @@
+{
+  "basics": {
+    "name": "Daniel F.",
+    "label": "Full Stack Developer con más de 4 años de experiencia",
+    "image": "https://avatars.githubusercontent.com/u/65387415?v=4",
+    "email": "danielfz07@protonmail.com",
+    "summary": "Soy un desarrollador backend apasionado por mi trabajo y con más de 4 años de experiencia en el área. Vivo en Anzoátegui, Venezuela, y estoy en constante búsqueda de nuevos retos y oportunidades para seguir aprendiendo y creciendo como profesional.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Anzoátegui",
+      "countryCode": "VE",
+      "region": "Venezuela"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "DanielFz07",
+        "url": "https://github.com/danielfz07"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "MedalloRP",
+      "position": "Lead Back-Front Developer",
+      "url": "sv.medallorp.com",
+      "startDate": "2022-01-01",
+      "endDate": null,
+      "summary": "  He desarrollado y mantenido un servidor San Andreas Multiplayer (RAKNET) para más de 300 jugadores simultáneos, y una comunidad mayor a 20.000 usuarios, lo que me ha brindado experiencia en la administración de servidores Linux y dominios web, además de sólidos conocimientos en SQL, incluyendo diseño, gestión y optimización de bases de datos, y experiencia en el desarrollo y mantenimiento de servidores web Apache, NodeJS y Nginx.",
+      "highlights": [
+        "Developed the Server"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "description": "HyperText Markup Language",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Medio",
+      "description": "Cascading Style Sheets",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Medio",
+      "description": "Programming Language",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Bajo",
+      "description": "Programming Language based on JavaScript",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "description": "Server Side JavaScript Enverionment",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MariaDB",
+      "level": "Avanzado",
+      "description": "Relational Databases Administration System",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "description": "Distributed Version Control System",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "description": "Forge based on Git to control versions",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Pawn",
+      "level": "Avanzado",
+      "description": "Programming Language based on C Language",
+      "keywords": [
+        "Desarrollo de Servidores Multijugador", "Backend"
+      ]
+    },
+    {
+      "name": "LSM",
+      "level": "Avanzado",
+      "description": "Linux Server Management",
+      "keywords": [
+        "Desarrollo de Servidores Multijugador", "Backend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Hablante nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Nivel medio"
+    },
+    {
+      "language": "Italiano",
+      "fluency": "Nivel medio"
+    }
+  ],
+  "projects": [
+    {
+      "name": "MedalloRP",
+      "isActive": true,
+      "description": "Servidor SAMP con más de 300 jugadores simultáneos, basado en el Roleplay Game.",
+      "highlights": [
+        "Elige tu propia historia",
+        "En desarrollo"
+      ],
+      "url": "samp:sv.medallorp.com"
+    },
+    {
+      "name": "Vector3D-SandBox",
+      "isActive": true,
+      "description": "Software de simulación de física y gráficos 3D, basado en vectores, hecho con Astro JS, Bun JS, HTML y CSS.",
+      "highlights": [
+        "Matemáticas",
+        "Vectores"
+      ],
+      "url": "https://danielfz07.github.io/vector3d-sandbox/",
+      "github": "https://github.com/DanielFz07/vector3d-sandbox"
+    }
+  ]
+}

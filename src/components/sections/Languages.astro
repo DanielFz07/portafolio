@@ -1,0 +1,90 @@
+---
+import Section from "../Section.astro"
+
+import { languages } from "@cv"
+---
+
+<Section title="Idiomas">
+	<ul>
+		{
+			languages.map(({language, fluency}) => {
+				return (
+					<li>
+						<article>
+							<header>
+								<h4>{language}</h4><h5 class="desc">{fluency}</h5>
+							</header>
+						</article>
+					</li>
+				)
+			})
+		}
+	</ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-inline: +16px;
+
+    border-radius: 8px;
+    border: 1px solid #170020;
+    flex-direction: row;
+    padding: 16px;
+    height: 100%;
+    width: 100%;
+  }
+
+  li {
+    border-radius: 6px;
+    background: #170020;
+    color: #eee;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+  h4:hover + .desc
+  {
+    font-size: 1rem;
+    display: block;
+    position: absolute;
+    color: #fff;
+    margin-block: -64px;
+    margin-inline: -48px;
+    background: #00030C;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    border: 2px solid #000820;
+    text-align: center;
+
+    animation: linear 0.3s fadeIn;
+    text-wrap: balance;
+  }
+  .desc
+  {
+    display: none;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @media print {
+    li {
+      border-radius: 6px;
+      border: 1px solid #170020;
+      color: #eee;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0.2rem 0.6rem;
+    }
+  }
+
+</style>
